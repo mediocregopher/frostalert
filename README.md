@@ -31,6 +31,10 @@ java -jar frostalert-0.1.0-SNAPSHOT-standalone.jar --api-key wundergroundkey \
                                                    mediocregopher@gmail.com gophersfriend@gmail.com
 ```
 
+This will check if the temperature on the current day is forecasted to go below 65, and send an email to
+mediocregopher@gmail.com and gophersfriend@gmail.com if it is. It will also send an email if there's any problems at any
+point in the process. The idea is to stick this in a cron that will run every day and forget about it.
+
 ## License
 
 Copyright © 2013 Brian Picciano
